@@ -2,8 +2,30 @@
     padding: 0;
     margin: 0;
 }
+#customm{
+    position: relative !important;
+    z-index: 2 !important;
+}
 .body{
     display: flex;
+    /* width: 100vh !important;
+    overflow: hidden;    */
+}
+.image11{
+    position: absolute;
+    right: -150px;
+    top: -110px;
+    
+}
+.image22{
+    position: absolute;
+    right: 50px;
+    top: 275px;
+}
+.image33{
+    position: absolute;
+    right: -30px;
+    top: 300px;
 }
 .sidenav1{
     background: linear-gradient(180deg, #00A859 2.53%, #003399 104.21%);
@@ -33,6 +55,10 @@
     background: white;
     padding: 110px 100px 30px 80px;
     width: 100%;
+    position: relative;
+    overflow: hidden !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
 }
 .para1{
     font-weight: 600;
@@ -40,6 +66,8 @@
     width: 550px;
     line-height: 40px;
     margin-bottom: 40px;
+    z-index: 2 !important;
+    position: relative;
 }
 .para2{
     font-size: 18px;
@@ -47,6 +75,8 @@
     width: 500px;
     line-height: 30px;
     margin-bottom: 30px;
+    z-index: 2 !important;
+    position: relative;
 }
 .para3{
     font-size: 18px;
@@ -54,6 +84,8 @@
     width: 450px;
     line-height: 28px;
     margin-bottom: 30px;
+    z-index: 2 !important;
+    position: relative;
 }
 .para4{
     font-size: 18px;
@@ -61,6 +93,8 @@
     width: 500px;
     line-height: 28px;
     margin-bottom: 30px;
+    z-index: 2 !important;
+    position: relative;
 }
 
 .bluespan{
@@ -70,14 +104,14 @@
 .sec1btns{
     display: flex;
     gap: 15px;
-    place-content: end;
+    place-content: center;
     /* margin-right: 150px; */
 }
 .sec1btn{
     background-color: #00A859;
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     font-weight: 400;
     padding: 8px 40px;
@@ -88,18 +122,20 @@
     background-color: white;
     text-decoration: none;
     color: #00A859;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     font-weight: 400;
     padding: 8px 40px;
     border: 1px solid #00A859;
     border-radius: 5px;
     display: flex;
+    position: relative;
+    z-index: 2;
 }
 #icon1{
     margin-left: 8px;
     color: #00A859 !important;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 
@@ -161,9 +197,12 @@
 }
 
 .section2{
-    
+    position: relative;
+    overflow: hidden !important;
     padding: 150px 20px 10px 40px;
     width: 100%;
+    height: 100vh !important;
+    overflow-y: auto !important;
 }
 .sec2h4{
     font-weight: 600;
@@ -212,15 +251,18 @@
     margin-top: 100px;
     display: flex;
     gap: 15px;
-    place-content: end;
+    place-content: center;
     
 }
 
 /* section  3333 */
 .section3{
-    
+    position: relative;
+    overflow: hidden !important;
     width: 100%;
     padding: 70px 60px 20px 30px;
+    height: 100vh !important;
+    overflow-y: auto !important;
 }
 .sec3hr{
     border-bottom: 2px solid black;
@@ -282,6 +324,10 @@
 .section4{
     width: 100%;
     padding: 60px 120px 20px 30px;
+    position: relative;
+    overflow: hidden !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
 }
 .sec4h4{
     font-weight: 600;
@@ -320,6 +366,10 @@
 .section5{
     width: 100%;
     padding: 50px 30px 20px 30px;
+    position: relative;
+    overflow: hidden !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
 }
 .sec5h4{
     font-weight: 600;
@@ -328,7 +378,9 @@
 
 .shorttab{
     display: flex;
-    gap: 200px;
+    gap: 170px;
+    position: relative;
+    z-index: 2;
 }
 .activetab{
     text-align: center;
@@ -342,6 +394,9 @@
     font-weight: 500;
     color: gray;
     cursor: pointer;
+}
+.tablabel1{
+    font-size: 16px;
 }
 .sec5div1{
     margin-right: 150px;
@@ -410,6 +465,10 @@
 .section8{
     width: 100%;
     padding: 30px 35px 10px 35px;
+    position: relative;
+    overflow: hidden !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
 }
 .sec8h4{
     font-weight: 600;
@@ -448,6 +507,9 @@
     color: black;
     font-size: 13px;
     font-weight:500;
+    position: relative !important;
+    z-index: 2 !important;
+    background-color: transparent;
 }
 
 
@@ -455,6 +517,10 @@
 .section9{
     width: 100%;
     padding: 250px 50px;
+    position: relative;
+    overflow: hidden !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
 }
 .sec9div{
     background-color: #00A859;
@@ -467,13 +533,53 @@
     margin-bottom: 50px;
 }
 
+/* agreement */
 
 
+.sectionagree{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /* margin-bottom: 40px; */
+    padding-bottom: 40px;
+    height: 100vh !important;
+    overflow-y: auto !important;
+}
 
 
-
-
-
+.mainagree{
+    background-color: transparent;
+    margin: 30px 15px;
+    padding: 30px 15px;
+    position: relative;
+    z-index: 2;
+}
+.agreehead{
+    text-align: center;
+    color: rgb(5, 5, 111);
+    font-size: 17px;
+    font-weight: 700;
+}
+.agreehr{
+    border:2px solid rgb(2, 2, 11);
+    /* margin-bottom: 10px; */
+}
+.agreep1{
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(6, 6, 63);
+}
+.space{
+    margin-top: 80px;
+}
+.agreep2{
+    text-align: center;
+    /* padding: 0px 20px; */
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(6, 6, 81);
+}
 
 
 
@@ -491,6 +597,23 @@
 
 /* extra small */
 @media (max-width: 576px) {
+    .image11{
+        top: -90px;
+        width: 250px;
+    }
+    .image22{
+        position: absolute;
+        right: 20px;
+        top: 295px;
+        width: 40px;
+    }
+    .image33{
+        position: absolute;
+        right: -30px;
+        top: 300px;
+        width: 100px;
+    }
+
     .sidenav1{
         width: 150px;
     }
@@ -733,6 +856,8 @@
 
     .section5{
         padding: 50px 10px 20px 10px;
+        height: 100vh !important;
+        overflow-y: auto !important;
     }
     .sec5h4{
         font-weight: 600;
@@ -831,6 +956,32 @@
         padding: 20px 20px;
         font-size: 12px;
         margin-bottom: 10px;
+    }
+
+    /* agreement */
+    .mainagree{
+        background-color: transparent;
+        margin: 30px 5px;
+        padding: 30px 5px;
+        position: relative;
+        z-index: 2;
+    }
+    .agreehead{
+        font-size: 13px;
+    }
+    .agreehr{
+        border:2px solid rgb(2, 2, 11);
+        /* margin-bottom: 10px; */
+    }
+    .agreep1{
+        padding: 0px 10px;
+        font-size: 10px;
+    }
+    .space{
+        margin-top: 30px;
+    }
+    .agreep2{
+        font-size: 10px;
     }
 }
 
@@ -936,6 +1087,8 @@
     .section2{
         padding: 100px 20px 10px 20px;
         width: 100%;
+        height: 100vh;
+        overflow-y: auto;
     }
     .sec2h4{
         font-weight: 600;
@@ -967,9 +1120,10 @@
         margin-top: 70px;
         display: flex;
         gap: 15px;
-        place-content: end;
+        place-content: center;
         
     }
+    
 
     /* section  3333 */
     .section3{
@@ -1007,6 +1161,10 @@
     /* section5 */
     .shorttab{
         gap: 60px;
+        font-size: 11px;
+    }
+    .tablabel1{
+        font-size: 14px;
     }
     .sec5div1{
         margin-right: 0px;
